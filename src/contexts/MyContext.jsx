@@ -26,7 +26,7 @@ const JobProvider = ({ children }) => {
     const handleFilter = (filter) => {
 
         if ( filter === 'all') {
-             setFilteredJob(selectedJobs)
+             setFilteredJob([])
         }
         else if( filter === 'remote'){
             const current = selectedJobs.filter( item => item.site === 'Remote')
