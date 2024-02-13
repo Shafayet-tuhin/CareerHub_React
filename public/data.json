@@ -1,0 +1,108 @@
+{
+  "jobs": [
+    {
+      "id": 1,
+      "company_name": "Airbnb",
+      "image": "https://i.postimg.cc/Jzbh1kkW/airbnb.png",
+      "job_title": "UI/UX Designer",
+      "site": "Remote",
+      "time": "Full-time",
+      "location": "San Francisco, CA",
+      "salary": "$120,000 - $180,000",
+      "job_description": "A UI/UX (User Interface/User Experience) designer is responsible for designing and creating engaging and effective interfaces for software and web applications. This includes designing the layout, visual design, and interactivity of the user interface.",
+      "educational_requirements": "Bachelor's degree from any reputable university.",
+      "experience": "2-3 years in this field."
+    },
+    {
+      "id": 5,
+      "company_name": "Tesla",
+      "image": "https://i.postimg.cc/TY5w4S21/tesla.png",
+      "job_title": "Hardware Engineer",
+      "site": "Onsite",
+      "time": "Full-time",
+      "location": "Palo Alto, CA",
+      "salary": "$120,000 - $180,000",
+      "job_description": "A Hardware Engineer at Tesla designs, develops, and tests hardware components for electric vehicles. Responsibilities include circuit design, PCB layout, and collaborating with software engineers for integration.",
+      "educational_requirements": "Bachelor's degree in Electrical Engineering or related field.",
+      "experience": "2-3 years in hardware engineering."
+    },
+    {
+      "id": 3,
+      "company_name": "Google",
+      "image": "https://i.postimg.cc/DfM05FTR/google.png",
+      "job_title": "Product Manager",
+      "site": "Remote",
+      "time": "Full-time",
+      "location": "Mountain View, CA",
+      "salary": "$130,000 - $180,000",
+      "job_description": "A Product Manager at Google is responsible for the strategy, roadmap, and feature definition of a product or product line. They work closely with engineering, design, and marketing teams to ensure the product's success.",
+      "educational_requirements": "Bachelor's degree in Computer Science, Engineering, or related field.",
+      "experience": "2-3 years in product management."
+    },
+    {
+      "id": 4,
+      "company_name": "Netflix",
+      "image": "https://i.postimg.cc/wjKv8V3V/netflix.png",
+      "job_title": "Senior UX Designer",
+      "site": "Remote",
+      "time": "Full-time",
+      "location": "Los Gatos, CA",
+      "salary": "$140,000 - $200,000",
+      "job_description": "A Senior UX Designer at Netflix is responsible for designing and improving the user experience of our digital platforms. This includes conducting user research, creating wireframes and prototypes, and collaborating with cross-functional teams to implement design solutions.",
+      "educational_requirements": "Bachelor's degree in Human-Computer Interaction, Design, or related field.",
+      "experience": "3-5 years in UX design."
+    },
+    {
+      "id": 2,
+      "company_name": "CareerHub",
+      "image": "https://i.postimg.cc/YSMCjC6L/Career-Hub.png",
+      "job_title": "Data Analyst",
+      "site": "Onsite",
+      "time": "Full-time",
+      "location": "New York, NY",
+      "salary": "$80,000 - $120,000",
+      "job_description": "A Data Analyst at CareerHub analyzes complex data sets to provide insights and support decision-making. Responsibilities include data cleansing, statistical analysis, and report generation.",
+      "educational_requirements": "Bachelor's degree in Statistics, Mathematics, Computer Science, or related field.",
+      "experience": "2-3 years in data analysis."
+    },
+    {
+      "id": 6,
+      "company_name": "Airbnb",
+      "image": "https://i.postimg.cc/Jzbh1kkW/airbnb.png",
+      "job_title": "Senior Data Scientist",
+      "site": "Remote",
+      "time": "Full-time",
+      "location": "San Francisco, CA",
+      "salary": "$160,000 - $220,000",
+      "job_description": "A Senior Data Scientist at Airbnb leads data-driven initiatives to enhance user experience and drive business growth. Responsibilities include data mining, machine learning model development, and insights generation.",
+      "educational_requirements": "Master's degree or PhD in Computer Science, Statistics, Mathematics, or related field.",
+      "experience": "5+ years in data science."
+    },
+    {
+      "id": 7,
+      "company_name": "CareerHub",
+      "image": "https://i.postimg.cc/YSMCjC6L/Career-Hub.png",
+      "job_title": "Software Engineer",
+      "site": "Onsite",
+      "time": "Full-time",
+      "location": "Chicago, IL",
+      "salary": "$90,000 - $140,000",
+      "job_description": "A Software Engineer at CareerHub is responsible for designing, developing, and maintaining software applications. This includes writing code, debugging, and collaborating with team members to deliver high-quality solutions.",
+      "educational_requirements": "Bachelor's degree in Computer Science, Engineering, or related field.",
+      "experience": "2-3 years in software engineering."
+    },
+    {
+      "id": 8,
+      "company_name": "Google",
+      "image": "https://i.postimg.cc/DfM05FTR/google.png",
+      "job_title": "Data Engineer",
+      "site": "Remote",
+      "time": "Full-time",
+      "location": "New York, NY",
+      "salary": "$120,000 - $170,000",
+      "job_description": "A Data Engineer at Google is responsible for designing, building, and maintaining scalable data pipelines and infrastructure. This includes data modeling, ETL processes, and ensuring data quality and integrity.",
+      "educational_requirements": "Bachelor's degree in Computer Science, Engineering, or related field.",
+      "experience": "3-5 years in data engineering."
+    }
+  ]
+}
