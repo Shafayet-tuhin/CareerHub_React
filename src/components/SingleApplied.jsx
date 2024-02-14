@@ -1,6 +1,7 @@
 import React, { useContext } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { jobContext } from '../contexts/MyContext'
+import Swal from 'sweetalert2'
 
 const SingleApplied = ({ item }) => {
 
@@ -11,6 +12,17 @@ const SingleApplied = ({ item }) => {
     }
 
     const {Cancel} = useContext(jobContext)
+
+    const  sweetalert = (id) => {
+
+        Cancel(id)
+
+        Swal.fire({
+            title: "Deleted!",
+            text: "Your file has been deleted.",
+            icon: "success"
+          });
+    }
 
     return (
    <div>
@@ -47,7 +59,7 @@ const SingleApplied = ({ item }) => {
                     className='mt-6 font-extrabold text-xl px-[1.12rem] py-[0.69rem] bg-purple-500 bg-gradient-to-r
                     from-purple-500 to-indigo-600 border rounded-lg text-white'>View Details
             </button>
-             <button onClick={()=>Cancel(item.id)}
+             <button onClick={()=>sweetalert(item.id)}
                     className='mt-6 font-extrabold text-xl px-[1.12rem] py-[0.69rem] bg-purple-500 bg-gradient-to-r
                     from-red-400 to-orange-400 border rounded-lg text-white'>Cancel Application
             </button>

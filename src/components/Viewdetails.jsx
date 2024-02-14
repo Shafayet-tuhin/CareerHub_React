@@ -3,16 +3,27 @@ import Nav from './Nav';
 import Footer from './Footer';
 import { useLocation } from 'react-router-dom';
 import { jobContext } from '../contexts/MyContext';
+import Swal from 'sweetalert2';
+
+
 
 const Viewdetails = () => {
+
   const { Selected } = useContext(jobContext);
   const item = useLocation();
   const data = item.state.item;
   const [applied, setApplied] = useState(false);
 
+
   const handleApply = () => {
     Selected(data.id);
     setApplied(true);
+    
+  Swal.fire({
+    title: 'Applied',
+    icon: 'success',
+  })
+
   };
 
   return (

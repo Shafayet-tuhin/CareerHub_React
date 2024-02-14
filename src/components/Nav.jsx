@@ -1,9 +1,18 @@
 import React, { useContext } from 'react'
 import { Link } from 'react-router-dom'
 import { jobContext } from '../contexts/MyContext'
+import Swal from 'sweetalert2'
 
 const Nav = () => {
     const {handleFilter} = useContext(jobContext)//onClick={()=> handleFilter('all')}
+    const sweetalert = () => {
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Something went wrong!",
+            footer: '<strong>Etar Kaaj Pending e</strong>'
+          });
+    }
     return (
         <div className='flex justify-between items-center font-abc '>
             <div>
@@ -17,7 +26,7 @@ const Nav = () => {
             </div>
 
             <div>
-                <button className='font-extrabold text-xl px-7 py-[1.19rem] bg-purple-500 bg-gradient-to-r from-purple-500 to-indigo-600 border rounded-lg text-white'>Start Applying</button>
+                <button onClick={()=> sweetalert()} className='font-extrabold text-xl px-7 py-[1.19rem] bg-purple-500 bg-gradient-to-r from-purple-500 to-indigo-600 border rounded-lg text-white'>Start Applying</button>
             </div>
         </div>
     )
