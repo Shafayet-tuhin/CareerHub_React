@@ -1,2 +1,2 @@
 # CLick on the link To see Online 👇
-[CLick here](https://career-hub-tuhin.netlify.app/)
+[CLick here](https://career-hu-tuhin.netlify.app/)
